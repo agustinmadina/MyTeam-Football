@@ -20,14 +20,16 @@ public class StartActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
-
+        if (savedInstanceState==null){
         customizeActionBar();
         fragmentManager
                 .beginTransaction()
                 .replace(R.id.container_layout, new StartFragment())
                 .addToBackStack(null)
                 .commit();
+          }
     }
+
     private void customizeActionBar() {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle(R.string.action_bar_title);

@@ -17,7 +17,7 @@
         android:textColor="#ff278c00" />
 
     <EditText
-        android:layout_width="181dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
@@ -29,35 +29,46 @@
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/radio_group_position">
+        android:id="@+id/radio_group_position"
+        android:orientation="horizontal">
 
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/radio_button_goalkeeper"
-            android:id="@+id/radio_button_goalkeeper"
-            android:textColor="#ff278c00" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
 
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/radio_button_defender"
-            android:id="@+id/radio_button_defender"
-            android:textColor="#ff278c00" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_button_goalkeeper"
+                android:id="@+id/radio_button_goalkeeper" />
 
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/radio_button_midfielder"
-            android:id="@+id/radio_button_midfielder"
-            android:textColor="#ff278c00" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_button_defender"
+                android:id="@+id/radio_button_defender" />
 
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/radio_button_forward"
-            android:id="@+id/radio_button_forward"
-            android:textColor="#ff278c00" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_button_midfielder"
+                android:id="@+id/radio_button_midfielder" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_button_forward"
+                android:id="@+id/radio_button_forward" />
+        </LinearLayout>
+
     </RadioGroup>
 
     <Button

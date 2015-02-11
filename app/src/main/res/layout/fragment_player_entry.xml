@@ -21,14 +21,14 @@
         android:textColor="#ff278c00" />
 
     <EditText
-        android:layout_width="181dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/edit_text_name"
         android:layout_gravity="left|top"
         android:hint="@string/text_name_hint"
-        android:textColor="#ff12b700" />
+        android:textColor="#ff4da900" />
 
     <RadioGroup
         android:layout_width="wrap_content"

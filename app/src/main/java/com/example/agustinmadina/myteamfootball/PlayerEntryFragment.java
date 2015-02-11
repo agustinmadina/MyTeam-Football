@@ -43,8 +43,6 @@ public class PlayerEntryFragment extends Fragment {
     EditText mEditTextName;
     TextView mTextViewTeamFinished;
 
-
-
     public PlayerEntryFragment() {
         // Required empty public constructor
     }
@@ -158,7 +156,7 @@ public class PlayerEntryFragment extends Fragment {
         if (mTotalQuantity <= 0){
             mEditTextName.setEnabled(false);
             mButtonNext.setEnabled(true);
-            mTextViewTeamFinished.setText("Team already completed Successfully, press Next");
+            mTextViewTeamFinished.setText(R.string.team_completed);
 
         }
     }

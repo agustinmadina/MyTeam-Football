@@ -57,12 +57,8 @@ public class StartFragment extends Fragment {
             private void prepareBundle(PlayerEntryFragment playerEntryFragment, ArrayList<Player> mPlayers) {
                 Bundle extrasBundle = new Bundle();
                 extrasBundle.putParcelableArrayList("players", mPlayers);
-//                extrasbundle.putInt("offensive", mOffensive);
-//                extrasbundle.putInt("midfield",mMidField);
-//                extrasbundle.putInt("total",mTotalQuantity);
-//                extrasbundle.putInt("defensive", mDefensive);
                 playerEntryFragment.setArguments(extrasBundle);
-//            }
+
 
             }
         }   );

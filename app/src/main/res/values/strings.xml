@@ -20,5 +20,6 @@
     <string name="text_name_hint">Enter player\'s name</string>
     <string name="default_team_name">My Team</string>
     <string name="default_dt_name">My DT</string>
+    <string name="team_completed">Team already completed Successfully, press Next</string>
 
 </resources>
