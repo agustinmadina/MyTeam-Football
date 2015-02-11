@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/personalize_team">
+        <EditTextPreference
+            android:key="team_name_preference"
+            android:title="@string/team_name_preference"
+            android:summary="@string/team_namesummary_preference"
+            android:defaultValue="My Team"/>
+        <EditTextPreference
+            android:key="dt_name_preference"
+            android:title="@string/dt_name_title"
+            android:summary="@string/dt_name_summary"
+            android:defaultValue="My DT"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

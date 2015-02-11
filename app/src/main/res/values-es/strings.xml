@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Team (Football)</string>
+    <string name="action_bar_title">Mi Equipo</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="button_next">Siguiente</string>
+    <string name="default_dt_name">Mi DT</string>
+    <string name="default_team_name">Mi Equipo</string>
+    <string name="dt_name_summary">Elige el nombre de tu Director Tecnico</string>
+    <string name="dt_name_title">Nombre de DT</string>
+    <string name="personalize_team">Personaliza tu equipo</string>
+    <string name="radio_button_defender">Defensor</string>
+    <string name="radio_button_forward">Delantero</string>
+    <string name="radio_button_goalkeeper">Arquero</string>
+    <string name="radio_button_midfielder">Mediocampista</string>
+    <string name="team_name_preference">Nombre del Equipo</string>
+    <string name="team_namesummary_preference">Selecciona el nombre de tu equipo</string>
+    <string name="text_name_hint">Ingrese el nombre del jugador</string>
+    <string name="text_view_title">Ingrese nuevo jugador</string>
+    <string name="title_activity_player_entry">Ingreso de jugador</string>
+    <string name="title_activity_settings">Configuracion</string>
+</resources>

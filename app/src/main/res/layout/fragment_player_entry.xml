@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.agustinmadina.myteamfootball.PlayerEntryFragment"
+    android:orientation="vertical"
+
+    android:padding="10dp"
+    android:background="@drawable/messi">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_view_title"
+        android:id="@+id/text_view_title"
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="30dp"
+
+        android:textColor="#ff278c00" />
+
+    <EditText
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edit_text_name"
+        android:layout_gravity="left|top"
+        android:hint="@string/text_name_hint"
+        android:textColor="#ff12b700" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio_group_position">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_button_goalkeeper"
+            android:id="@+id/radio_button_goalkeeper" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_button_defender"
+            android:id="@+id/radio_button_defender" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_button_midfielder"
+            android:id="@+id/radio_button_midfielder" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_button_forward"
+            android:id="@+id/radio_button_forward" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_next"
+        android:id="@+id/button_next"
+        android:enabled="false"
+        android:textColor="#ff049900" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/text_view_teamfinished"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff33a400" />
+
+</LinearLayout>
