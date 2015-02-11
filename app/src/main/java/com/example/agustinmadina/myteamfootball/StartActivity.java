@@ -31,7 +31,7 @@ public class StartActivity extends ActionBarActivity {
     private void customizeActionBar() {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle(R.string.action_bar_title);
-        actionBar.setIcon(R.drawable.myteamicon);
+        actionBar.setIcon(R.drawable.ic_launcher);
         actionBar.setDisplayShowHomeEnabled(true);
     }
 
